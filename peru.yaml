@@ -1,0 +1,16 @@
+imports:
+  dxsonnet: vendor/lib/dxsonnet
+  ksonnet-util: vendor/lib/ksonnet-util
+  k8s-libsonnet: vendor/lib/k8s-libsonnet
+
+git module dxsonnet:
+  url: https://github.com/dxlr8r/dxsonnet.git
+  export: lib
+
+git module ksonnet-util:
+  url: https://github.com/grafana/jsonnet-libs.git
+  export: ksonnet-util
+
+git module k8s-libsonnet:
+  url: https://github.com/jsonnet-libs/k8s-libsonnet.git
+  export: '1.20'
