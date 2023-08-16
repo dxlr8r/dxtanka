@@ -1,1 +1,1 @@
-import 'lib/k8s-libsonnet/main.libsonnet'
+import 'vendor/lib/k8s-libsonnet/main.libsonnet'
