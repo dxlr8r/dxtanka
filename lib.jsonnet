@@ -2,7 +2,6 @@
 # SPDX-License-Identifier: MIT
 
 { 
+  dx: import 'vendor/lib/dxsonnet/main.libsonnet',
   k: import 'vendor/lib/ksonnet-util/kausal.libsonnet',
-  obj: import 'vendor/lib/dxsonnet/obj.libsonnet',
-  test: import 'vendor/lib/dxsonnet/test.libsonnet'
 }
